@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Submit forgotten video game songs, artists, or a message for the Music of Games project.">
+		<title>What I Forgot | Music of Games</title>
+		<link rel="stylesheet" href="music.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header class="page-header">
+				<p class="eyebrow">Contact and submissions</p>
+				<h1>What I Forgot</h1>
+				<p class="intro">Send a song, an artist, or just say hi.</p>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="earworm.html">Earworm</a></li>
+					<li><a href="inspiration.html">Inspiration</a></li>
+					<li><a class="active" href="info.html">Forgot Something?</a></li>
+				</ul>
+			</nav>
+			<main>
+				<section class="content-section info-content">
+					<p class="section-label">Have I missed something?</p>
+					<h2>Help me add to the collection</h2>
+					<p>If you have a video game song or artist I forgot, submit the information here. I will review it and edit the pages to add songs that fit. You can also use the form just to say hi. Hiiii!</p>
+					<p class="required-note">Fields marked with an asterisk (*) are required.</p>
+					<form class="submission-form" method="post" action="#">
+						<div class="form-field">
+							<label for="username">*Username</label>
+							<input type="text" id="username" name="username" autocomplete="username" required>
+							<small>Use a username if you want to stay anonymous.</small>
+						</div>
+						<div class="form-field">
+							<label for="first-name">First Name <span>(Optional)</span></label>
+							<input type="text" id="first-name" name="first-name" autocomplete="given-name">
+						</div>
+						<div class="form-field">
+							<label for="last-name">Last Name <span>(Optional)</span></label>
+							<input type="text" id="last-name" name="last-name" autocomplete="family-name">
+						</div>
+						<div class="form-field">
+							<label for="email">*Email</label>
+							<input type="email" id="email" name="email" autocomplete="email" required>
+							<small>Your email lets me message you back about your suggestion.</small>
+						</div>
+						<div class="form-field form-field-wide">
+							<label for="comment">*Comment</label>
+							<textarea id="comment" name="comment" rows="8" required placeholder="Tell me about the song, artist, game, or message you want to share."></textarea>
+						</div>
+						<button type="submit">Submit information</button>
+					</form>
+				</section>
+			</main>
+			<footer>
+				<p>Music of Games and Inspiration</p>
+				<p>Created by Gio &middot; 2026</p>
+				<p>Email: gguerr28@asu.edu</p>
+			</footer>
+		</div>
+	</body>
+</html>
